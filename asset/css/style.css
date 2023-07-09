@@ -92,13 +92,12 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 0 150px;
+    padding: 0 100px;
     gap: 100px;
     
 }
 .service-info{
     color: white;
-    border: 1px solid red;
 }
 
 .service-title{
@@ -122,18 +121,22 @@ nav{
     border-right:2px solid white;
     height: 100px;
 }
+.service-box{
+    display: block;
+}
 
 .service-card{
     display: flex;
-    border: 1px solid red;
+    gap: 5px;
 }
 .card{
-    border-color: red;
+    display: block;
     border: 1px solid;
     border-radius: 5px;
-    background-color: beige;
+    background-color: white;
     width: 250px;
     height: 200px;
+    text-align: center;
 }
 .card img{
     width: 150px;

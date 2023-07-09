@@ -128,16 +128,20 @@ nav{
 .service-card{
     display: flex;
     gap: 5px;
+    text-align: center;
 }
 .card{
-    display: block;
-    border: 1px solid;
+    display: block; 
     border-radius: 5px;
     background-color: white;
     width: 250px;
     height: 200px;
-    text-align: center;
+}
+.card-info{
+    display: block;
+    padding-top: 25px;
 }
 .card img{
-    width: 150px;
+    width: 100px;
+    padding-bottom: 20px    ;
 }
